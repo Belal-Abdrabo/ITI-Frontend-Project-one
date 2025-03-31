@@ -101,7 +101,51 @@ a:hover{
 .buttondiv{
     padding-left: 30px;
 }
+.main-serviec{
+    margin: auto;
+    padding: auto;
+    margin-top: 600px;
+    text-align: center;
+}
+.textf{
+    font-weight:900;
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+.serv-img{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    margin-bottom: 20px;   
+}
+h4{
+    color: rgb(248, 118, 10);
+    margin-bottom: 10px;
+}
+.serviec-contant{
+ display: inline-block;
+border: 1px solid gainsboro;
+width: 25%;
+height: 400px;
+margin: 60px 10px 50px;
+padding: 30px 15px;
+line-height: 22px
+}
 
-.ourservices{
+.serviec-contant:hover{
+    scale: 104%;
+    border-top: 10px solid rgb(248, 118, 10);
     
+}
+.buttonser{
+        width: 150px;
+        height: 40px; 
+        color: white;
+        border: 0;
+        font-weight: 800;
+}
+.buttonser:hover{
+    scale: 103%;
+    color:  rgb(248, 118, 10);
 }
