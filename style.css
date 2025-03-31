@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    padding: 10px;
+   max-width: 90%;
+   margin: auto;
+    height: 100vh;
+
+}
+.celarf{
+    content: "";
+    /* Creates an empty content */
+    display: table;
+    /* Makes the element behave like a table */
+    clear: both;
+    /* Clears all floated elements */
+}
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.navbarel{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    float: right;
+    
+}
+.logo{
+    padding-left: 80px;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.logo-text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: black;
+}
+a{  
+    color: gray;
+    text-decoration: none;}
+.navbarel li{
+    
+   display: inline-block;
+    color: gray;
+    line-height: 50px;
+    width: 150px;
+}
+a:hover{
+    color: rgb(248, 118, 10);
+}
+.contant-home{
+    width: 100%;
+    position: relative;
+    top:200px;
+}
+.text{
+
+    font-size: larger;
+    padding-left: 20px;
+    width: 55%;
+    display: inline-block;
+    position: relative;
+    bottom:40px;
+}
+.text h1{
+    font-size:4vw;
+}
+.dish-im{
+    position: relative;
+    right: 8%;
+    float: right; 
+    width: 37%;
+    padding-right:3% ;
+}
+.dish-img{
+    width: 95%;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    margin-right: 20px ;
+    color: white;
+    border: 0;
+}
+.button:hover{
+    scale: 105%;
+    transition: 200ms;
+}
+.buttondiv{
+    padding-left: 30px;
+}
+
+.ourservices{
+    
+}
