@@ -106,8 +106,9 @@ a:hover{
     padding: auto;
     margin-top: 600px;
     text-align: center;
+    width: 90%;
 }
-.textf{
+.texts{
     font-weight:900;
     font-size: x-large;
     margin-bottom: 15px;
@@ -139,6 +140,8 @@ line-height: 22px
     
 }
 .buttonser{
+        
+        display: inline-block;
         width: 150px;
         height: 40px; 
         color: white;
@@ -147,5 +150,60 @@ line-height: 22px
 }
 .buttonser:hover{
     scale: 103%;
+    color:  rgb(248, 118, 10);
+}
+.fruits{
+    margin: auto;
+    padding: auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 70%;
+
+}
+.fruits-title{
+    margin-bottom: 60px;
+}
+.fruits-div{
+    height: 230px;
+
+}
+.fruits-p{
+    display: inline-block;
+    position: relative;
+    bottom:100px;
+    text-align: left;
+    width:1070px;
+
+    font-size: medium;
+}
+.fruits-img{
+    display: inline-block;
+     width: 90px;
+     height: 160px;
+    margin-bottom: 15px;
+}
+.fruits-h{
+    display:inline-block;
+    position: relative;
+    right: 450px;
+    font-size: xx-large;
+    margin-top: 30px;
+    font-weight: 200;
+    
+}
+.fruits-bt{
+    float: left;
+    background-color: black;
+    width: 150px;
+    height: 40px; 
+    margin-left: 10px;
+    color: white;
+    border: 0;
+    font-size: large;
+    position: relative;
+    bottom:50px;
+}
+.fruits-bt:hover{
+    scale: 101%;
     color:  rgb(248, 118, 10);
 }
