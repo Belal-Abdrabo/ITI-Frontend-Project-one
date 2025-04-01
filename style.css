@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-size: large;
+
 }
 .container{
     
@@ -153,68 +154,68 @@ line-height: 22px
     scale: 103%;
     color:  rgb(248, 118, 10);
 }
+
+
 .fruits{
     margin: auto;
-    padding: auto;
     margin-top: 100px;
     text-align: center;
     width: 70%;
+}
 
-}
-.fruits-title{
-    margin-bottom: 60px;
-}
-.fruits-div{
-    height: 230px;
 
-}
-.fruits-p{
-    display: inline-block;
-    position: relative;
-    bottom:100px;
-    text-align: left;
-    width:1070px;
-
-    font-size: medium;
-}
-.fruits-img{
-    display: inline-block;
-     width: 90px;
-     height: 160px;
-    margin-bottom: 15px;
-}
-.fruits-h{
-    display:inline-block;
-    position: relative;
-    right: 450px;
-    font-size: xx-large;
-    margin-top: 30px;
-    font-weight: 200;
+.fruit-cd{
+    width: 100%;
+    margin: 60px auto 50px;
     
 }
-.fruits-bt{
+.left-part{
     float: left;
-    background-color: black;
-    width: 150px;
-    height: 50px; 
-    margin-left: 10px;
-    color: white;
-    border: 0;
-    font-size: large;
-    position: relative;
-    bottom:50px;
+    width: 60%;
+    text-align: left;
+    margin-bottom: 30px;
 }
-.fruits-bt:hover{
+.title{
+    margin-top: 40px;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.parg{
+    line-height: 25px;
+    margin-bottom: 35px;
+    width: 95%;
+}
+.frut-bt{
+    height: 50px;
+    width: 140px;
+    background: #000;
+    color: white;
+    
+}
+.right-part{
+    width: 40%;
+    float: right;
+    padding: 40px 30px 20px 0px;
+}
+.fmg{
+    width: 250px;
+}
+.frut-bt:hover{
     scale: 101%;
     color:  rgb(248, 118, 10);
 }
+
+
+
 .br-img{
     width: 100%;
+    margin-top: 980px;
     margin-bottom:60px ;
 }
 .clint{
-    margin-top: 30px;
+    margin-top: 90px;
     text-align: center;
+    margin-bottom: 100px;
 }
 .textc{
     font-size: xx-large;
@@ -223,4 +224,110 @@ line-height: 22px
 }
 .clint-title{
     margin-bottom: 30px;
+}
+
+
+
+.contact{
+    margin-top: 200px;
+    width: 95%;
+    padding-left: 200px;
+}
+.left-con{
+    width: 60%;
+    float: left;
+}
+.c-title{
+
+    margin-top: 40px;
+    font-size: xx-large;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.c-f{
+    width: 100%;
+    border: 0;
+}
+.input{
+    width: 100%;
+    border: 0;
+    border-bottom:1px gray solid;
+    margin-bottom: 30px;
+}
+.em{
+    width: 100%;
+    border: 0;
+    border-bottom:1px rgba(128, 128, 128, 0.235) solid;
+    margin-bottom: 30px;
+}
+.mess{
+    margin-top: 60px;
+}
+.right-con{
+    width: 40%;
+    float: right;
+}
+.im{
+    width: 300px;
+    margin-left: 450px;
+    margin-top: 0px;
+    padding: 20px;
+
+}
+.send{
+    margin-top: 50px;
+    width: 140px;
+    height: 40px;
+    background-color:rgb(225, 101, 0);
+    color: white;
+    border: 0;
+    margin-bottom: 100px;
+}
+.send:hover{
+    scale: 102%;
+}
+
+.fot-div{
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+}
+.fot-div-tit{
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: x-large;
+
+}
+.fot-div-par{
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.div-img{
+    float: left;
+    margin-right: 10px;
+}
+.fot-div-sb{
+    clear: both;
+    margin-top: 90px;
+    font-weight: 500;
+    font-size: x-large;
+}
+.fot-in{
+    width: 250px; height: 35px;
+    border: 1px solid gray;
+    margin-top: 0px;
+}
+.s-in{
+    margin-top: 15px;
+    width: 160px;
+    height: 35px;
+    background:rgb(218, 98, 0);
+    border: 0;
+    color: white;
+}   
+.s-in:hover{
+
+    scale: 104%;
 }
