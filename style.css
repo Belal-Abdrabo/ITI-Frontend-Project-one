@@ -5,6 +5,7 @@
     font-family: 'Arial', 'Helvetica', 'sans-serif';
     margin: 0;
     padding: 0;
+    font-size: large;
 }
 .container{
     
@@ -195,7 +196,7 @@ line-height: 22px
     float: left;
     background-color: black;
     width: 150px;
-    height: 40px; 
+    height: 50px; 
     margin-left: 10px;
     color: white;
     border: 0;
@@ -206,4 +207,20 @@ line-height: 22px
 .fruits-bt:hover{
     scale: 101%;
     color:  rgb(248, 118, 10);
+}
+.br-img{
+    width: 100%;
+    margin-bottom:60px ;
+}
+.clint{
+    margin-top: 30px;
+    text-align: center;
+}
+.textc{
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.clint-title{
+    margin-bottom: 30px;
 }
