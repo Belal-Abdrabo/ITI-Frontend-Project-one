@@ -8,6 +8,9 @@
     font-size: large;
 
 }
+body{
+    scroll-behavior: smooth;
+}
 .container{
     
     padding: 10px;
@@ -99,6 +102,7 @@ a:hover{
 .button:hover{
     scale: 105%;
     transition: 200ms;
+
 }
 .buttondiv{
     padding-left: 30px;
@@ -112,7 +116,7 @@ a:hover{
 }
 .texts{
     font-weight:900;
-    font-size: x-large;
+    font-size: xx-large;
     margin-bottom: 15px;
 }
 .serv-img{
@@ -133,10 +137,12 @@ width: 25%;
 height: 400px;
 margin: 60px 10px 50px;
 padding: 30px 15px;
-line-height: 22px
+line-height: 22px;
+transition: 0.3s ease-in-out;
 }
 
 .serviec-contant:hover{
+
     scale: 104%;
     border-top: 10px solid rgb(248, 118, 10);
     
@@ -149,10 +155,13 @@ line-height: 22px
         color: white;
         border: 0;
         font-weight: 800;
+        transition: 0.3s ease-in-out;
 }
 .buttonser:hover{
-    scale: 103%;
-    color:  rgb(248, 118, 10);
+    scale: 103%;    
+    background-color: inherit !important;
+    color: #000 !important;
+
 }
 
 
@@ -190,6 +199,7 @@ line-height: 22px
     width: 140px;
     background: #000;
     color: white;
+    transition: 0.3s ease-in-out;
     
 }
 .right-part{
@@ -202,7 +212,8 @@ line-height: 22px
 }
 .frut-bt:hover{
     scale: 101%;
-    color:  rgb(248, 118, 10);
+    background-color: inherit !important;
+    color: #000 !important;
 }
 
 
@@ -211,6 +222,24 @@ line-height: 22px
     width: 100%;
     margin-top: 980px;
     margin-bottom:60px ;
+    background-image: url("./images/tasty.png");
+    height: 700px;
+    background-position: center;
+    background-size: contain;   
+    position: relative;
+    background-repeat: no-repeat;
+}
+.br-img h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%,-50%);
+    background: none;
+    color: white;
+    width: 100%;
+    font-size: 120px;
+    font-weight: bold;
 }
 .clint{
     margin-top: 90px;
@@ -253,6 +282,10 @@ line-height: 22px
     border: 0;
     border-bottom:1px gray solid;
     margin-bottom: 30px;
+}
+input:focus-visible{
+
+    outline: 0;
 }
 .em{
     width: 100%;

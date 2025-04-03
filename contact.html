@@ -34,13 +34,13 @@
         </div>
         <div class="c-f">
             <form>
-                    <input type="text" name="name" placeholder="Name" class="input">
+                    <input type="text" name="name" placeholder="Name" class="input" required>
 
-                    <input type="text" name="name" placeholder="Phone Number" class="input">
+                    <input type="text" name="name" placeholder="Phone Number" class="input" required>
                 
-                    <input type="email" name="name" placeholder="Email" class="em">          
+                    <input type="email" name="name" placeholder="Email" class="em" required>          
 
-                    <input type="text" name="message" placeholder="Message" class="input mess">
+                    <input type="text" name="message" placeholder="Message" class="input mess" required>
                 
                     <input type="submit" value="Send" class="send">
                 
@@ -113,8 +113,10 @@
                 Subscribe Now
             </div> 
             <div  style="margin-top: 20px;">
-                <input type="text" id="x" class="fot-in">
+                <form>
+                    <input type="text" id="x" class="fot-in" required>
                 <input type="submit" id="x" name="x" value="Subscribe" class="s-in">
+                </form>
             </div>
         </div>
         
